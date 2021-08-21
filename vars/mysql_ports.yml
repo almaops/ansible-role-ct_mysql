@@ -1,0 +1,3 @@
+---
+ct_mysql_ct_ports: "{{ ct_mysql_ct_ports_mysql + ct_mysql_ct_ports_extra }}"
+...

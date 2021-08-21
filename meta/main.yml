@@ -1,0 +1,23 @@
+---
+galaxy_info:
+  role_name: ct_mysql
+  author: Valentin Gostev
+  description: Ansible role deploys MySQL container
+  namespace: almaops
+  company: AlmaOps
+  license: MIT
+  min_ansible_version: 2.8
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - mysql
+    - database
+    - databases
+    - rdbms
+dependencies: []
+...
